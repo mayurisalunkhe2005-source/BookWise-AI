@@ -1,0 +1,157 @@
+.navbar {
+
+    height: 78px;
+
+    background: #2563eb;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    padding: 0 40px;
+
+    border-bottom: 2px solid #1e40af;
+
+}
+
+
+/* Left part: Title + Pages */
+.navbar-left {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 30px;
+
+}
+
+
+/* Project title */
+.navbar-title {
+
+    color: white;
+
+    font-size: 26px;
+
+    font-weight: 700;
+
+    padding-right: 30px;
+
+    border-right: 2px solid rgba(255,255,255,0.6);
+
+    white-space: nowrap;
+
+}
+
+
+/* Pages */
+.navbar-links {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 25px;
+
+}
+
+
+.navbar-links a {
+
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 17px;
+
+    font-weight: 500;
+
+    white-space: nowrap;
+
+}
+
+
+.navbar-links a:hover {
+
+    color: #dbeafe;
+
+}
+
+
+/* Right side */
+.navbar-right {
+
+    display: flex;
+
+    align-items: center;
+
+}
+
+
+/* User name + Logout */
+.user-section {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 20px;
+
+}
+
+
+.user-name {
+
+    color: white;
+
+    font-size: 17px;
+
+    font-weight: 600;
+
+    white-space: nowrap;
+
+}
+
+
+/* Login link */
+.navbar-right a {
+
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 17px;
+
+    font-weight: 600;
+
+}
+
+
+/* Logout button */
+.logout-btn {
+
+    background: white;
+
+    color: #2563eb;
+
+    border: none;
+
+    padding: 10px 20px;
+
+    border-radius: 25px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+}
+
+
+.logout-btn:hover {
+
+    background: #dbeafe;
+
+}
