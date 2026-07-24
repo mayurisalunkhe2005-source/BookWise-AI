@@ -93,6 +93,7 @@ function Register() {
               <input
                 className="form-control"
                 name="username"
+                placeholder="Enter Username"
                 value={formData.username}
                 onChange={handleChange}
                 required
@@ -108,6 +109,7 @@ function Register() {
                 type="email"
                 className="form-control"
                 name="email"
+                placeholder="Enter Email"
                 value={formData.email}
                 onChange={handleChange}
                 required
@@ -123,6 +125,7 @@ function Register() {
                 type="password"
                 className="form-control"
                 name="password"
+                placeholder="Enter Password"
                 value={formData.password}
                 onChange={handleChange}
                 required
